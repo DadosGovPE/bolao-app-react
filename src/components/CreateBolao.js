@@ -35,7 +35,7 @@ function CreateBolao() {
         headers: { Authorization: `Bearer ${token}` },
       });
       alert('Bolão criado com sucesso!');
-      navigate('/games');
+      navigate('/myboloes');
     } catch (error) {
       console.error('Erro ao criar bolão:', error);
       alert('Erro ao criar bolão.');
